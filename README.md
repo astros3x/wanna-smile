@@ -1,2 +1,2 @@
 # File-malware
-Basic file spammer.
+Basic file spammer
