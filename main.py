@@ -1,20 +1,18 @@
 #Created by 2Loop & CaptainBeluga
 import random
 import os
+from os.path import expanduser
 
-names_list = ["astri", "beluga", "XDDDD", "6969", "Fucked", "fuck","Immagine","kill-me","gaio","troll","pwned","5006","you-suck"]
-extensions_list = ['pdf','txt','png',"docx","xlsx","jpg","ini","pptx","dll","apk","mp4","zip","blend","exe","iso","mp3"]
+desk = expanduser('~/Desktop')
+extensions_list = ['pdf','txt','png','docx','xlsx','jpg','ini','pptx','dll','apk','mp4','zip','blend']
+names_list = ['astri', 'beluga', 'XDDDD', '6969', 'Fucked', 'Imagine']
 
 while True:
-    name = random.choice(names_list)
-    extension = random.choice(extensions_list)
+    name = random.choice(extensions_list)
+    extension = random.choice(names_list)
 
-    result = f"{name}.{extension}"
+    result = f'{extension}.{name}'
 
-    os.system(f"echo "" > {result}")
+    os.system(f"echo '' > {desk}/{result}")
 
-    new = open(result,'w')
-    new.write(name)
-    new.close()
-
-    print(f"[+] File generated: {result}")
+    print(f'[+] File generated > {result}')
