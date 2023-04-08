@@ -21,8 +21,6 @@
 
 [+] Install/Configure:
 	Run after extraction: wanna-smile.bat
-	Run before extraction: wanna-smile.bat
-
 
 [+] Silent Mode: 
 	Hide All
