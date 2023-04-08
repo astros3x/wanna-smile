@@ -1,7 +1,7 @@
 ![wannasmile](https://user-images.githubusercontent.com/87500882/230744695-30006f48-5e2c-43be-8fc8-4f63715ae7c5.png)
 # Wanna-Smile
 ## 📍 About
-A basic malware in batch which spams files on the desktop and saves itself in the windows startup directory.
+A basic malware written in batch which spams files on the desktop and saves itself in the windows startup directory.
 ## :warning: Warning
 Only to be run in a virtual machine!
 ## 🗒️ Components
