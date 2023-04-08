@@ -1,5 +1,5 @@
 <p align="center">
-  ![wannasmile](https://user-images.githubusercontent.com/87500882/230744695-30006f48-5e2c-43be-8fc8-4f63715ae7c5.png)
+  [wannasmile](https://user-images.githubusercontent.com/87500882/230744695-30006f48-5e2c-43be-8fc8-4f63715ae7c5.png)
 </p>
 # Wanna-Smile
 ## Abount
