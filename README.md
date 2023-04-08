@@ -4,7 +4,7 @@ Basic file spammer 🆒
 ROOT
 -wanna-smile-sfx_archive.txt => instructions to generate your sfx archive
 
-BIN
+BIN\n
 -bin/wanna-smile_SILENT_RUNNER.py => wscript execution
 
 -bin/wanna-smile.vbs => vbs file for silent mode
