@@ -4,6 +4,7 @@
 A basic malware written in python which spams files on the desktop and saves itself in the windows startup directory.
 ## :warning: Warning
 This malware was created ONLY for educational and testing purposes.
+
 WE take NO responsibility for what you will do with it.
 
 Advice: Only to be run in a virtual machine!
