@@ -44,4 +44,4 @@ SFX Archive
     -releases/SFX_Wanna-Smile.exe
 ## :question: Support
 If you have any issues or need help, contact on discord CaptainBeluga
-#5006 || 2loop#6969 or just join our [discord server](https://discord.gg/XnRjFmgPYz).
+#5006 / 2Loop#6969 or just join our [discord server](https://discord.gg/XnRjFmgPYz).
