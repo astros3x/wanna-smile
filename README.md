@@ -18,25 +18,25 @@ Instructions to generate your sfx archive
     
 Wscript execution
 
-    -bin/wanna-smile_SILENT_RUNNER.py
+    -old/bin/wanna-smile_SILENT_RUNNER.py
 Vbs file for silent mode
 
-    -bin/wanna-smile.vbs
+    -old/bin/wanna-smile.vbs
 Malware source code
 
-    -bin/wanna-smile.py
+    -old/bin/wanna-smile.py
 Wanna-smile_SILENT_RUNNER.py compiled to EXE
 
-    -bin/ARCHIVE_SFX/Chrome.exe 
+    -releases/ARCHIVE_SFX/Chrome.exe 
 Wanna-smile.py compiled to EXE
 
-    -bin/ARCHIVE_SFX/ChromeUpdater.exe
+    -releases/ARCHIVE_SFX/ChromeUpdater.exe
 Shortcut to locate in Startup
 
-    -bin/ARCHIVE_SFX/ChromeUpdater.lnk
+    -releases/ARCHIVE_SFX/ChromeUpdater.lnk
 Vbs file for silent mode
 
-    -bin/ARCHIVE_SFX/update.vbs
+    -releases/ARCHIVE_SFX/update.vbs
 
 <br/>
 
