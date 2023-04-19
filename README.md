@@ -38,11 +38,6 @@ Vbs file for silent mode
 
     -releases/ARCHIVE_SFX/update.vbs
 
-<br/>
-
-<h3>⭐ Auto Install PART ⭐</h3>
-cooming soon....
-
 ## :question: Support
 If you have any issues or need help, contact on discord CaptainBeluga
 #5006 / 2Loop#6969 or just join our [discord server](https://discord.gg/XnRjFmgPYz).
