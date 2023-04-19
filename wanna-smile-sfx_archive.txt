@@ -10,7 +10,7 @@
 
 [+] Zipped file:
 	1. wanna-smile.exe
-	2. Chrome.exe
+	2. Chrome.bat
 	3. wanna-smile.lnk
 	4. wanna-smile.vbs
 
