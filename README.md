@@ -10,6 +10,8 @@ WE take NO responsibility for what you will do with it.
 Advice: Only to be run in a virtual machine!
 
 ## 🗒️ Components
+
+<h3>👴 SFX PART 👴</h3>
 Instructions to generate your sfx archive
 
     -wanna-smile-sfx_archive.txt
@@ -36,12 +38,11 @@ Vbs file for silent mode
 
     -bin/ARCHIVE_SFX/update.vbs
 
-Single malware
+<br/>
 
-    -releases/wanna-smile.exe
-SFX Archive
+<h3>⭐ Auto Install PART ⭐</h3>
+cooming soon....
 
-    -releases/SFX_Wanna-Smile.exe
 ## :question: Support
 If you have any issues or need help, contact on discord CaptainBeluga
 #5006 / 2Loop#6969 or just join our [discord server](https://discord.gg/XnRjFmgPYz).
