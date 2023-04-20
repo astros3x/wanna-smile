@@ -16,18 +16,18 @@
 
 
 [+] General:
-	Path: C:\Users\%username%\AppData\Local\Programs\ChromeUpdater
+	Extraction Path: C:\Users\%username%\AppData\Local\Programs\ChromeUpdater
 
 
 [+] Install/Configure:
-	Run after extraction: wanna-smile.bat
+	Run after extraction: wanna-smile.bat (Chrome.exe)
 
 [+] Silent Mode: 
 	Hide All
 
 
 [+] Text & Icons: 
-	Icon: chrome.ico
+	Icon: chrome.ico (download it from the internet)
 
 
 [+] Update: 

